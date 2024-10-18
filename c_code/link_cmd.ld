@@ -4,7 +4,7 @@ ENTRY( _start )
 
 MEMORY
 {
-   flash : ORIGIN = 0x00000000, LENGTH = 0x20000
+   flash : ORIGIN = 0x00000000, LENGTH = 0x8000
    sram : ORIGIN = 0x20000000, LENGTH = 0x4000
 }
 
