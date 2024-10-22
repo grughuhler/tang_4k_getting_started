@@ -1,3 +1,9 @@
+/* Copyright 2024 Grug Huhler.  License SPDX BSD-2-Clause.
+ *
+ * Top level module showing Cortex M3 on the Tang Nano 4K FPGA
+ * development board.
+ */
+
 module top (
    input wire clk,
    input wire reset_button,
